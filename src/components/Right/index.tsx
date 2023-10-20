@@ -5,7 +5,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
 import agent from '../../Agent';
-import GithubIcon from '../../assets/github.svg';
+import GithubIcon from '../assets/github.svg';
 import { settingsAtom } from '../../store/settings';
 import { SuggestedAtom } from '../../store/suggested';
 import { userAtom } from '../../store/user';

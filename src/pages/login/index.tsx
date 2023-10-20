@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import store from 'store';
 import KiteImage from '../../../public/black-kite.webp';
 import agent from "../../Agent";
-import EyeClosed from "../../assets/eye-closed.svg";
-import EyeOpen from "../../assets/eye-open.svg";
-import KiteLogo from '../../assets/kite.png';
+import EyeClosed from "../assets/eye-closed.svg";
+import EyeOpen from "../assets/eye-open.svg";
+import KiteLogo from '../assets/kite.png';
 import Button from "../../components/Button";
 
 export default function Login(props: {}) {

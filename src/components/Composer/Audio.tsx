@@ -1,8 +1,8 @@
 import cn from 'classnames';
 import { useCallback, useEffect, useRef, useState } from "react";
 import { toast } from "react-hot-toast";
-import MicFillIcon from '../../assets/mic-fill.svg';
-import MicIcon from '../../assets/mic.svg';
+import MicFillIcon from '../assets/mic-fill.svg';
+import MicIcon from '../assets/mic.svg';
 import Wave from "../Wave";
 import styles from './Composer.module.scss';
 

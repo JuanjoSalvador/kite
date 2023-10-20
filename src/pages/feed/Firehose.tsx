@@ -11,7 +11,7 @@ import { CID } from 'multiformats';
 import React, { SyntheticEvent, useCallback, useEffect, useRef, useState } from 'react';
 import { useInfiniteQuery, useQuery } from 'react-query';
 import agent from '../../Agent';
-import CloseIcon from '../../assets/close.svg';
+import CloseIcon from '../assets/close.svg';
 import Blue from '../../components/Blue/Blue';
 import Loading from '../../components/Loading';
 import PostsRenderer from '../../components/PostsRenderer';

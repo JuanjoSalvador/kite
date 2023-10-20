@@ -5,7 +5,7 @@ import { useQuery } from 'react-query';
 import { useLocation } from 'react-router-dom';
 import { enabled } from 'store';
 import agent from '../../Agent';
-import SearchIcon from '../../assets/search.svg';
+import SearchIcon from '../assets/search.svg';
 import { searchAtom } from '../../store/search';
 import blacklist from '../../utils/blacklist';
 import Loading from '../Loading';

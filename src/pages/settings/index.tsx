@@ -1,5 +1,5 @@
 import { useAtom } from 'jotai';
-import ProfileFillIcon from '../../assets/profile-fill.svg';
+import ProfileFillIcon from '../assets/profile-fill.svg';
 import Layout from "../../components/Layout";
 import { setSettingsLocalStorage, settingsAtom } from '../../store/settings';
 

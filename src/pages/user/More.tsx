@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { Portal } from 'react-portal';
 import { useMutation, useQueryClient } from 'react-query';
 import agent from '../../Agent';
-import BlockIcon from '../../assets/block.svg';
-import MoreIcon from '../../assets/dots.svg';
+import BlockIcon from '../assets/block.svg';
+import MoreIcon from '../assets/dots.svg';
 import Loading from '../../components/Loading';
 import styles from './User.module.scss';
 

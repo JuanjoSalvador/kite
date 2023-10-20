@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { Portal } from "react-portal";
 import { useMutation, useQueryClient } from "react-query";
 import agent from "../../Agent";
-import EditIcon from '../../assets/edit.svg';
-import AvatarPlaceholder from '../../assets/placeholder.png';
+import EditIcon from '../assets/edit.svg';
+import AvatarPlaceholder from '../assets/placeholder.png';
 import Button from "../../components/Button";
 import { userAtom } from "../../store/user";
 

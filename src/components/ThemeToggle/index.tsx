@@ -1,8 +1,8 @@
 import cn from 'classnames';
 import { useEffect, useState } from 'react';
 import store from 'store';
-import MoonIcon from '../../assets/moon.svg';
-import SunIcon from '../../assets/sun.svg';
+import MoonIcon from '../assets/moon.svg';
+import SunIcon from '../assets/sun.svg';
 import styles from './ThemeToggle.module.scss';
 
 export default function ThemeToggle(props: {}) {
