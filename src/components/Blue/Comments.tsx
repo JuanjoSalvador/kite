@@ -2,7 +2,7 @@ import { FeedViewPost, PostView } from "@atproto/api/src/client/types/app/bsky/f
 import { useAtom, useSetAtom } from "jotai";
 import { SyntheticEvent } from "react";
 import { Portal } from "react-portal";
-import CommentsIcon from '../../assets/comments.svg';
+import CommentsIcon from '../assets/comments.svg';
 import { newAtom } from "../../store/new";
 import NewModal from "../NewModal";
 import styles from './Blue.module.scss';

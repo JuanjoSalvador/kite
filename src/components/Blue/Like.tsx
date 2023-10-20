@@ -2,8 +2,8 @@ import { FeedViewPost, PostView } from '@atproto/api/src/client/types/app/bsky/f
 import cn from 'classnames';
 import { SyntheticEvent, useCallback, useEffect, useState } from 'react';
 import agent from '../../Agent';
-import HeartFillIcon from '../../assets/like-fill.svg';
-import HeartIcon from '../../assets/like.svg';
+import HeartFillIcon from '../assets/like-fill.svg';
+import HeartIcon from '../assets/like.svg';
 import Loading from '../Loading';
 import styles from './Blue.module.scss';
 

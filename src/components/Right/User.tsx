@@ -1,6 +1,6 @@
 import cn from 'classnames';
 import { Link, useNavigate } from 'react-router-dom';
-import AvatarPlaceholder from '../../assets/placeholder.png';
+import AvatarPlaceholder from '../assets/placeholder.png';
 import styles from './Right.module.scss';
 
 export default function User(props: {

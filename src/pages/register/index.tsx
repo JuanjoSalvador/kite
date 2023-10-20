@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import store from 'store';
 import KiteImage from '../../../public/black-kite.webp';
 import agent from "../../Agent";
-import KiteLogo from '../../assets/kite.png';
+import KiteLogo from '../assets/kite.png';
 import BackButton from "../../components/BackButton";
 import Button from "../../components/Button";
 

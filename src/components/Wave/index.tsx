@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import WaveSurfer from 'wavesurfer.js';
-import CloseIcon from '../../assets/close.svg';
-import PauseIcon from '../../assets/pause.svg';
-import PlayIcon from '../../assets/play.svg';
+import CloseIcon from '../assets/close.svg';
+import PauseIcon from '../assets/pause.svg';
+import PlayIcon from '../assets/play.svg';
 import styles from './Wave.module.scss';
 
 export default function Wave(props: {

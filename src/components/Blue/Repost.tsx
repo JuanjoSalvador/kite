@@ -3,9 +3,9 @@ import { useSetAtom } from 'jotai';
 import { SyntheticEvent, useCallback, useEffect, useState } from 'react';
 import { Portal } from 'react-portal';
 import agent from '../../Agent';
-import QuoteIcon from '../../assets/quote.svg';
-import RepostFillIcon from '../../assets/repost-fill.svg';
-import RepostIcon from '../../assets/repost.svg';
+import QuoteIcon from '../assets/quote.svg';
+import RepostFillIcon from '../assets/repost-fill.svg';
+import RepostIcon from '../assets/repost.svg';
 import { newAtom } from '../../store/new';
 import styles from './Blue.module.scss';
 

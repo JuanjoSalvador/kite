@@ -7,7 +7,7 @@ import { Portal } from 'react-portal';
 import { useMutation, useQuery } from "react-query";
 import { Link, useLocation, useParams } from "react-router-dom";
 import agent from "../../Agent";
-import AvatarPlaceholder from '../../assets/placeholder.png';
+import AvatarPlaceholder from '../assets/placeholder.png';
 import BackButton from "../../components/BackButton";
 import Blue from '../../components/Blue/Blue';
 import Button from "../../components/Button";
